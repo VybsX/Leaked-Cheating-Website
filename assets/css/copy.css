@@ -1,0 +1,134 @@
+body {
+  position: relative;
+  color: #8693a6;
+} 
+a{
+  text-decoration: none;
+}
+
+p{
+  color: #fff;
+}
+h1 {
+  font-size: 2.5rem;
+  line-height: 1;
+}
+/* Support Section CSS Start Here */
+.support-section {
+  width: 80%;
+  margin: auto;
+}
+.review-content{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-bottom: 20px;
+}
+.review-title{
+   position: relative;
+   text-align: center;
+   margin-bottom: 30px;
+}
+.review-title h1 {
+  color: #fff;
+  font-weight: 600;
+  margin: 20px 0px;
+}
+.support-item {
+  color: #fff;
+  background-color: #18181b;
+  border: 2px solid #222d3e;
+  border-radius: 20px;
+  padding: 20px;
+  text-align: center;
+  height: 200px;
+}
+
+
+.support-item img {
+  margin-bottom: 20px;
+}
+.support-item h2 {
+  font-size: 20px;
+  font-weight: 600;
+}
+
+.sing-in-btn{
+  background: linear-gradient(to right, #0f3c79, #02042c) !important;
+  border: 2px solid #0f3c79 !important;
+  
+}
+.navbar-toggler span{
+  color: #fff !important;
+}
+
+@media screen and (max-width: 992px) {
+  .support-item {
+    height: auto;
+    margin-bottom: 25px;
+  }
+}
+
+@media screen and (max-width: 768px) {
+  .hero-main {
+    height: 100%;
+    margin: 100px 0px;
+  }
+  .btn-sm {
+    margin-top: 10px;
+  }
+  .hidden{
+    display: block !important;
+  }
+  .desktop-menu{
+    display: none !important;
+  }
+}
+/* Support Section CSS End Here */
+
+/* Server Section CSS Start Here */
+.server {
+  margin-top: 100px;
+}
+.server-title {
+  text-align: center;
+  margin-bottom: 60px;
+} 
+.server-title h1 {
+  font-weight: 800;
+  color: #fff;
+}
+.server-item {
+  text-align: center;
+  margin-bottom: 40px;
+} 
+.server-item h2 {
+  color: #fff;
+  font-size: 18px;
+  font-weight: 600;
+}
+.server-item p {
+  font-size: 14px;
+  width: 70%;
+  margin: 10px auto;
+}
+/* Server Section CSS End Here */
+.w-6{
+  width: 50px;
+}
+.font-semibold{
+  font-weight: 800;
+  color: #fff;
+}
+.rinbow-six-contnet{
+  width: 500px;
+  margin: auto;
+}
+footer {
+  position: relative;
+}
+@media screen and (max-width: 992px) {
+  .rinbow-six-contnet{
+    width: 100%;
+  }
+}
